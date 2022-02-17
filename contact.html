@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Assignment-1</title>
+    <style>
+        body {
+            background-color: #c7c5c5;
+        }
+        .logo {
+            margin-left: 50px;
+        }
+        .menu {
+            float: right;
+            padding-right: 2px;
+        }
+        .menu ul {
+            list-style: none; display: inline-flex;
+        }
+        .menu ul li {
+            padding: 5px;
+        }
+
+        h2 {
+            color: blue;
+        }
+
+        .contact-section {
+            padding: 15px;
+        }
+
+        input[type=text], input[type=email], input[type=password], textarea {
+            width: 300px;
+        }
+        
+        .address-section {
+            text-align: center;
+            padding-top: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+                padding: 15px;
+        }
+        footer ul {
+            list-style: none;
+            
+        }
+        footer ol li a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Start Header Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <!-- End Header Section -->
+
+    <!-- Start Contact Section -->
+    <section class="contact-section">
+        <h2 align="center">Contact Us</h2>
+        <form action="">
+            <Label>Your name</Label> <br>
+            <input type="text" name="name" placeholder="Please Enter your name" required>
+            <br><br>
+
+            <Label>Your Email</Label> <br>
+            <input type="email" name="email" placeholder="Please Enter your Email" required>
+            <br><br>
+
+            <Label>Subject</Label> <br>
+            <input type="text" name="subject" placeholder="Please Enter your message Subject" required>
+            <br><br>
+
+            <Label>Message</Label> <br>
+            <textarea name="message" id=""rows="3" placeholder="Please Enter your message" required></textarea>
+            <br><br>
+
+            <input style="background-color: gray; width: 60px;" type="submit" value="Send">
+        </form>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Start Address Section -->
+    <div class="address-section">
+        <h2>Our Address</h2>
+        <br>
+        <address>
+            House-346 <br>
+            Bohoddar Hat, <br>
+            Shulok Bohor, <br>
+            Chattogram
+        </address>
+    </div>
+    <!-- End Address Section -->
+
+    <!-- Start Footer Section -->
+    <footer>
+        <h1>Top Links</h1>
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ol>
+        <p align="center">&copy; Copyright 2018. All Rights Reserved.</p>
+    </footer>
+    <!-- End Footer Section -->
+</body>
+</html>
